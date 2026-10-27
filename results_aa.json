@@ -1,0 +1,1853 @@
+{
+ "summary": {
+  "arms": [
+   "baseline",
+   "baseline"
+  ],
+  "human_cost_assumption_usd": 6.0,
+  "arm0": {
+   "kind": "baseline",
+   "n": 101,
+   "deflection_rate": 0.2277,
+   "resolution_rate": 0.7723,
+   "violations": 0,
+   "pii_leaks": 0,
+   "llm_cost_usd": 0.0,
+   "roi_per_conv_usd": 1.3663,
+   "by_intent": {
+    "bill_increase": 0.0,
+    "cancel": 1.0,
+    "kb": 1.0,
+    "late_fee": 0.0,
+    "outage": 1.0
+   }
+  },
+  "arm1": {
+   "kind": "baseline",
+   "n": 99,
+   "deflection_rate": 0.2626,
+   "resolution_rate": 0.7778,
+   "violations": 0,
+   "pii_leaks": 0,
+   "llm_cost_usd": 0.0,
+   "roi_per_conv_usd": 1.5758,
+   "by_intent": {
+    "bill_increase": 0.0,
+    "cancel": 1.0,
+    "kb": 1.0,
+    "late_fee": 0.0,
+    "outage": 1.0
+   }
+  },
+  "deflection_lift": {
+   "diff": 0.0349,
+   "ci95": [
+    -0.0843,
+    0.1541
+   ]
+  },
+  "srm_p": 0.8875
+ },
+ "rows": [
+  {
+   "arm": 0,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "late_fee",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "late_fee",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "late_fee",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "late_fee",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "late_fee",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "late_fee",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "late_fee",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "late_fee",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 0,
+   "intent": "kb",
+   "resolved": true,
+   "deflected": true,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "bill_increase",
+   "resolved": false,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "outage",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  },
+  {
+   "arm": 1,
+   "intent": "cancel",
+   "resolved": true,
+   "deflected": false,
+   "violation": false,
+   "llm_cost": 0.0,
+   "pii_in_prompt": false
+  }
+ ]
+}
